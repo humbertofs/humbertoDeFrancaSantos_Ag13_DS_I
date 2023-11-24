@@ -1,0 +1,103 @@
+body{
+    background-color: #B0C9D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 5em;
+    text-align: center;
+    color: #260801;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2em;
+    color: #F2CCB6;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    color: #260801;
+    padding: 1em;
+}
+
+a{
+    color: #B0C9D9;
+}
+
+a:link{
+    color: #B0C9D9;
+}
+
+a:visited{
+    color: #B0C9D9;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+}
+
+.preWedding, .diaNoiva, .cerimonia, .festa, .luaDeMel{
+    border-radius: 1em;
+    font-size: 1em;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    color: #F2CCB6;
+    flex-grow: 1;
+    background: #260801;
+}
+
+.preWedding{
+    
+}
+
+.diaNoiva{
+
+}
+
+.cerimonia{
+
+}
+
+.festa{
+
+}
+
+.luaDeMel{
+
+}
+
+.imgSet {
+    border-radius: 10%;
+    width: 20em;
+    height: 13em;
+    overflow:hidden;
+    position: ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.imgSet img{
+    width: 100%;
+    bottom: 0;
+    width: 100%;
+}
+
+.imgSet img:hover{
+    transition-duration: 700ms;
+    width: 100%;
+    width: 100%;
+    scale: 130%;
+}
+
+figcaption{
+    color: #B0C9D9;
+    margin-bottom: 1em;
+    text-transform:uppercase;
+    text-align: center;
+}
